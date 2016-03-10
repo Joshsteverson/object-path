@@ -1,0 +1,27 @@
+{
+  "name": "object-path",
+  "version": "1.0.0",
+  "description": "Simple object navigation",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover _mocha",
+    "test": "mocha",
+    "lint": "eslint ./"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshsteverson/object-path.git"
+  },
+  "author": "JDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshsteverson/object-path/issues"
+  },
+  "homepage": "https://github.com/Joshsteverson/object-path#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.3.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}
