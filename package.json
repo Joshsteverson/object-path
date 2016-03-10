@@ -1,5 +1,5 @@
 {
-  "name": "object-path",
+  "name": "simple-object-path",
   "version": "1.0.0",
   "description": "Simple object navigation",
   "main": "index.js",
