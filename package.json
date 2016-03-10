@@ -1,12 +1,12 @@
 {
   "name": "simple-object-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple object navigation",
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover _mocha",
     "test": "mocha",
-    "lint": "eslint ./"  
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
