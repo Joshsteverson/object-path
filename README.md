@@ -8,7 +8,7 @@ Simple ObjectPath is a module that allows you to navigate to a given location wi
 
 # Installation 
 ```sh
-$ npm install object-path
+$ npm install simple-object-path
 ```
 # Usage
 ```javascript
