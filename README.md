@@ -12,7 +12,7 @@ $ npm install simple-object-path
 ```
 # Usage
 ```javascript
-var objectPath = require('object-path');
+var objectPath = require('simple-object-path');
 var obj = {animal: 
     {
         type: 'Feline', 
