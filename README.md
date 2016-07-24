@@ -26,18 +26,22 @@ var obj = {animal:
 var result = objectPath(obj, 'animal/dailyNeeds/1/timeOfDay');
 console.log(result); // 'evening'
 
-var nestedArray = [
-    [
-        ['0,0,0', '0,0,1'],
-        ['0,1,0', '0,1,1']
-    ],
-    [
-        ['1,0,0', '0,0,1'],
-        ['1,1,0', '1,1,1']
-    ]
-];
-var resultNestedArray1 = objectPath(nestedArray, '0/1/1');
+var objWithArray = {
+    prop: {
+        array: [
+            [
+                ['0,0,0', '0,0,1'],
+                ['0,1,0', '0,1,1']
+            ],
+            [
+                ['1,0,0', '0,0,1'],
+                ['1,1,0', '1,1,1']
+            ]
+        ]
+    }
+};
+var resultNestedArray1 = objectPath(objWithArray, 'prop/array/0/1/1');
 console.log(resultNestedArray1); // '0,1,1'
-var resultNestedArray2 = objectPath(nestedArray, '4/0/4');
+var resultNestedArray2 = objectPath(objWithArray, 'prop/array/4/0/4');
 console.log(resultNestedArray2); // null
 ```

@@ -4,8 +4,8 @@ module.exports = function objectPath(obj, path) {
 	var result = obj;
 	try{
 		var props = path.split('/');
-		props.every(function nestAnotherTime(prop) {
-			if (result[prop] === undefined) {
+		props.every(function propsEveryCb(prop) {
+			if (typeof result[prop] === 'undefined') {
 				result = null;
 				return false;
 			}
